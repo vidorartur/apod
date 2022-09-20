@@ -21,7 +21,6 @@ body {
 .title {
   margin-top: 4rem;
   font-size: 4rem;
-  border-radius: 20px;
   color: white;
   width: 80%;
   text-align: center;
@@ -29,20 +28,17 @@ body {
 
 .copyright {
   font-size: 2rem;
-  border-radius: 20px;
   color: white;
 }
 
 .date {
   font-size: 1.2rem;
-  border-radius: 20px;
   color: white;
 }
 
 .text {
   font-size: 1.4rem;
   line-height: 2rem;
-  border-radius: 20px;
   width: 80%;
   width: 80%;
   color: white;
@@ -58,6 +54,69 @@ img {
 .loading {
   margin: 0 auto;
   margin-top: 10rem;
-  font-size: 5rem;
+  font-size: 2rem;
   text-align: center;
+}
+
+/* ======================= MEDIA QUERIES (SMALL DEVICES) ============================ */
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 80%;  
+  }
+
+  img{
+    width: 100%;
+    height: 50vh;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: none;
+    justify-content: none;
+    align-items: none;
+    padding: none;
+    gap: none;
+    width: 100%;
+  }
+  
+  .title {
+    margin-top: none;
+    font-size: 4rem;
+    border-radius: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .copyright {
+    font-size: 2rem;
+  
+    color: white;
+  }
+  
+  .date {
+    font-size: 1.2rem;
+  
+    color: white;
+  }
+  
+  .text {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    width: 80%;
+    width: 80%;
+    color: white;
+    text-align: justify;
+}
+
+.loading {
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: left;
+}
 }
