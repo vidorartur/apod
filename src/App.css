@@ -64,7 +64,6 @@ img {
   body {
     width: 80%;  
   }
-
   img{
     width: 100%;
     height: 50vh;
@@ -72,7 +71,6 @@ img {
     border-radius: none;
     box-shadow: none;
   }
-
   .container {
     display: flex;
     flex-flow: none;
@@ -82,7 +80,6 @@ img {
     gap: none;
     width: 100%;
   }
-  
   .title {
     margin-top: none;
     font-size: 4rem;
@@ -91,16 +88,13 @@ img {
     width: 100%;
     text-align: center;
   }
-  
   .copyright {
     font-size: 2rem;
   
     color: white;
   }
-  
   .date {
     font-size: 1.2rem;
-  
     color: white;
   }
   
